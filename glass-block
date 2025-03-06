@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embedded Blocks Glass</title>
+    <style>
+        body { text-align: center; font-family: Arial, sans-serif; margin: 0; padding: 20px; }
+        .embed-container { position: relative; width: 100%; max-width: 800px; margin: auto; padding-top: 56.25%; }
+        iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; }
+    </style>
+</head>
+<body>
+    <h2>My Interactive Blocks Glass Embed</h2>
+    <div class="embed-container">
+        <iframe src="https://blocks.glass/embed/81f89fa6-bd09-488b-99a5-e827cf127f90" 
+                allow="autoplay; encrypted-media; xr-spatial-tracking; accelerometer; gyroscope; magnetometer" 
+                allowfullscreen></iframe>
+    </div>
+</body>
+</html>
